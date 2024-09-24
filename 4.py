@@ -1,11 +1,4 @@
-year=int(input())
-
-def is_year_leap(year):
-    if year % 4==0 and year %100!=0 or year % 400==0:
-        return True
-    else:
-        return False
-
-
-print(is_year_leap(year))
-
+#4
+a = int(input())
+b = int(input())
+print((a+b)**2)

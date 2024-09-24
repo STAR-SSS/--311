@@ -1,8 +1,7 @@
 #5
-def is_prime(n):
-    for i in range(2,int(n**0.5 +1)):
-        if n%i==0:
-            return False
-    return True
-a=int(input())
-print(is_prime(a))
+a = int(input())
+b = int(input())
+c = int(input())
+p = (a + b + c) / 2 #формула Герона
+print('p', a + b + c)
+print('s',(p* (p-a)* (p-b)* (p-c)) )
